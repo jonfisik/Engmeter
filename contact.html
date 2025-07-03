@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Empresa de Engenharia Elétrica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Serviços</a></li>
+                <li><a href="about.html">Quem Somos</a></li>
+                <li><a href="norms.html">Normas Técnicas</a></li>
+                <li><a href="contact.html">Contato</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact">
+            <h1>Entre em Contato</h1>
+            <p>Preencha o formulário abaixo para solicitar um orçamento gratuito ou tirar suas dúvidas. Nossa equipe entrará em contato o mais breve possível.</p>
+            
+            <!-- <form action="#" method="POST"> -->
+            <form action="https://formspree.io/f/xgvyryeb" method="POST">
+
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="company">Empresa (opcional):</label>
+                <input type="text" id="company" name="company">
+
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="service">Tipo de Serviço Desejado:</label>
+                <select id="service" name="service">
+                    <option value="inspecao_eletrica">Inspeção Elétrica</option>
+                    <option value="laudos_art">Laudos Técnicos e ART</option>
+                    <option value="medicoes_nr10">Medições e Verificações NR10</option>
+                    <option value="adequacoes_normativas">Adequações Normativas</option>
+                    <option value="gerenciamento_energia">Gerenciamento de Energia por Telemetria</option>
+                    <option value="outros">Outros</option>
+                </select>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <p>Se preferir, entre em contato diretamente pelo WhatsApp: <a href="https://wa.me/5511913283957" target="_blank">+55 11 91328-3957</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>CNPJ: [Seu CNPJ] | CREA: [Seu CREA] | Endereço: Rua Dante Alderigo, 551</p>
+        <p><a href="https://wa.me/5511913283957" target="_blank">WhatsApp: +55 11 91328-3957</a></p>
+        <p><a href="#">NR10</a> | <a href="#">NBR 5410</a> | <a href="#">NBR 14039</a></p>
+    </footer>
+</body>
+</html>
+
