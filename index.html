@@ -723,11 +723,20 @@
 
                 <div class="col-md-12">
                   <label for="subject-field" class="pb-2">Assunto</label>
-                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                  <!-- <input type="text" class="form-control" name="subject" id="subject-field" required=""> -->
+
+                  <select class="form-select" name="subject" id="subject-field" required>
+                    <option value="" disabled selected>Selecione o assunto</option>
+                    <option value="orcamento">Solicitar Orçamento</option>
+                    <option value="visita">Agendar Visita Técnica</option>
+                    <option value="engenheiro">Falar com Engenheiro</option>
+                    <option value="rh">Falar com RH</option>>
+                    <option value="outros">Outro Assunto</option>
+                  </select>
                 </div>
 
                 <div class="col-md-12">
-                  <label for="message-field" class="pb-2">Messagem</label>
+                  <label for="message-field" class="pb-2">Menssagem</label>
                   <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
                 </div>
 
