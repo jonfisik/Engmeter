@@ -967,6 +967,7 @@ section,
   height: 100%;
   position: relative;
   z-index: 1;
+  border-radius: 15px; /*Acrescentado*/
 }
 
 .featured-services .service-item:before {
@@ -1015,7 +1016,7 @@ section,
 .featured-services .service-item:hover:before {
   background: var(--accent-color);
   inset: 0;
-  border-radius: 0px;
+  border-radius: 15px;
 }
 
 /*--------------------------------------------------------------
@@ -1067,6 +1068,10 @@ section,
 
 .about .about-content p:last-child {
   margin-bottom: 0;
+}
+
+.about img {
+  border-radius: 15px;
 }
 
 /*--------------------------------------------------------------
@@ -1131,7 +1136,7 @@ section,
   width: 100%;
   position: relative;
   text-align: center;
-  border-radius: 4px;
+  border-radius: 15px; /*contadores*/
   z-index: 0;
 }
 
@@ -1181,6 +1186,7 @@ section,
   padding: 80px 20px;
   transition: border ease-in-out 0.3s;
   height: 100%;
+  border-radius: 15px;
 }
 
 .services .service-item .icon {
@@ -1446,7 +1452,7 @@ section,
   bottom: 0;
 }
 
-.portfolio .portfolio-item img {
+.portfolio .portfolio-item img { /*Imagens portifólio*/
   border-radius: 15px;
 }
 
