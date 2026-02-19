@@ -967,7 +967,7 @@ section,
   height: 100%;
   position: relative;
   z-index: 1;
-  border-radius: 10px; /*Acrescentado*/
+  border-radius: 10px; /*4 - Serviços*/
 }
 
 .featured-services .service-item:before {
@@ -1072,6 +1072,7 @@ section,
 
 .about img {
   border-radius: 10px; /*Imagem sobre nós*/
+  height: 470px;
 }
 
 /*--------------------------------------------------------------
