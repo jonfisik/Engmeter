@@ -967,7 +967,7 @@ section,
   height: 100%;
   position: relative;
   z-index: 1;
-  border-radius: 15px; /*Acrescentado*/
+  border-radius: 10px; /*Acrescentado*/
 }
 
 .featured-services .service-item:before {
@@ -1016,7 +1016,7 @@ section,
 .featured-services .service-item:hover:before {
   background: var(--accent-color);
   inset: 0;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -1071,7 +1071,7 @@ section,
 }
 
 .about img {
-  border-radius: 15px;
+  border-radius: 10px; /*Imagem sobre nós*/
 }
 
 /*--------------------------------------------------------------
@@ -1136,7 +1136,7 @@ section,
   width: 100%;
   position: relative;
   text-align: center;
-  border-radius: 15px; /*contadores*/
+  border-radius: 10px; /*contadores*/
   z-index: 0;
 }
 
@@ -1186,7 +1186,7 @@ section,
   padding: 80px 20px;
   transition: border ease-in-out 0.3s;
   height: 100%;
-  border-radius: 15px;
+  border-radius: 10px; /**/
 }
 
 .services .service-item .icon {
@@ -1453,7 +1453,7 @@ section,
 }
 
 .portfolio .portfolio-item img { /*Imagens portifólio*/
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -1741,7 +1741,7 @@ section,
   background-color: var(--surface-color);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   padding: 30px;
-  border-radius: 15px; /*Box mapa*/
+  border-radius: 10px; /*Box mapa*/
 }
 
 @media (max-width: 575px) {
@@ -1791,7 +1791,7 @@ section,
   height: 100%;
   padding: 30px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  border-radius: 15px; /*Box fomulário*/
+  border-radius: 10px; /*Box fomulário*/
 }
 
 @media (max-width: 575px) {
