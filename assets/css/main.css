@@ -1411,7 +1411,7 @@ section,
   transition: all ease-in-out 0.5s;
   background: color-mix(in srgb, var(--background-color), transparent 10%);
   padding: 15px;
-  border-radius: 0 0 15px 15px; /**/
+  border-radius: 0 0 10px 10px; /**/
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
